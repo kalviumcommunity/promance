@@ -24,4 +24,13 @@ The project explores advanced prompt engineering techniques such as zero-shot, o
 - Multi-language prompt support  
 - Prompt version history & analytics  
 - Integration with chatbots and AI tools  
-- Collaboration features for team-based prompt engineering  
+- Collaboration features for team-based prompt engineering 
+
+### Zero Shot Prompting 
+
+  A zero shot prompting means giving a task of AI without providing examples or other information , it relies the pre-trained model to respond to your question
+
+ * Translate "What is your name ?" in Russian - Text Transformation
+ * How is the weather today in Delhi - Information Retrival 
+ * Write a poem on nature - Creative Task
+ * What is the answer to 147^89 ? - Reason & Problem Solving
