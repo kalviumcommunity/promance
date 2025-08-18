@@ -125,5 +125,30 @@ task = "summarize this article in 3 bullet points"
 prompt = f"Hello {user_name}, please {task}."
 print(prompt)
 
+# 🧩 Chain-of-Thought (CoT) Prompting
+
+## 🔹 What is Chain-of-Thought Prompting?
+Chain-of-Thought (CoT) prompting is a technique where you explicitly ask the AI to **show its reasoning process step by step** before giving the final answer.  
+
+Instead of just giving the answer directly, the model explains its **intermediate thinking steps**, similar to how a person might solve a math or logic problem.  
+
+---
+
+## 🔹 Why Use CoT Prompting?
+- ✅ Helps the AI handle **complex reasoning tasks**.  
+- ✅ Produces more **accurate results** for math, logic, and multi-step problems.  
+- ✅ Makes the solution **transparent** (you see how the answer was derived).  
+
+---
+
+## 🔹 Structure of a CoT Prompt
+1. **Task instruction** – Tell the AI what to solve.  
+2. **Reasoning requirement** – Ask it to *"think step by step"* or *"show the reasoning."*  
+3. **Final answer** – Have the model conclude clearly.  
+
+---
+
+  
+
 
 
