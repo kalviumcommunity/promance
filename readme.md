@@ -96,5 +96,34 @@ It’s like a teacher showing several solved problems on the board so the studen
 3. **New input** – The actual task to solve.  
 
 ---
+# ⚡ Dynamic Prompting
+
+## 🔹 What is Dynamic Prompting?  
+Dynamic prompting means **building or adjusting prompts automatically** (often with code) depending on the **context, user input, or external data**.  
+
+Instead of writing one static prompt, you make it **flexible and reusable**, so the AI can adapt to different situations.  
+
+It’s commonly used in chatbots, apps, or automation systems where prompts must change **dynamically** at runtime.  
+
+---
+
+## 🔹 Why Use Dynamic Prompting?  
+- ✅ **Personalization** → Prompts can include user-specific details.  
+- ✅ **Context-awareness** → Adjusts based on history, database, or environment.  
+- ✅ **Automation** → Saves time by generating prompts programmatically.  
+- ✅ **Scalability** → Works across multiple use cases without manually writing every prompt.  
+
+---
+
+## 🔹 Examples of Dynamic Prompting  
+
+### 1. Personalization (User-Specific)  
+```python
+user_name = "Chaitanya"
+task = "summarize this article in 3 bullet points"
+
+prompt = f"Hello {user_name}, please {task}."
+print(prompt)
+
 
 
