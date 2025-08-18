@@ -74,3 +74,27 @@ Now solve:
 * **Problem:** 25 - 9 = ?
 * **Answer:** [To be completed by AI]
 
+# 🧠 Multi-Shot (Few-Shot) Prompting
+
+## 🔹 What is Multi-Shot Prompting?
+Multi-shot prompting (also called *few-shot prompting*) is when you provide the AI **multiple examples** of a task before asking it to complete a new one.  
+
+It’s like a teacher showing several solved problems on the board so the student can recognize the pattern before solving their own.
+
+---
+
+## 🔹 Why Multi-Shot Works
+- The AI doesn’t just rely on abstract instructions.  
+- It **learns from patterns** in multiple examples.  
+- It reduces mistakes in tasks where one example isn’t enough.  
+
+---
+
+## 🔹 Structure
+1. **Task instruction** – Tell the AI what to do.  
+2. **Multiple examples** – Show the pattern (input → output).  
+3. **New input** – The actual task to solve.  
+
+---
+
+
