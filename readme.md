@@ -147,6 +147,54 @@ Instead of just giving the answer directly, the model explains its **intermediat
 3. **Final answer** – Have the model conclude clearly.  
 
 ---
+# 🛠️ System and User Prompts
+
+## 🔹 System Prompt
+The **system prompt** defines the role and overall behavior of the AI inside **Promance**. It ensures the model acts as a *prompt engineering assistant* and always provides optimized, structured prompts.  
+
+
+---
+
+## 🔹 User Prompt
+The **user prompt** is the actual input given by the end-user. It can be unstructured or vague, and the AI refines it into an improved version.  
+
+
+**Refined Prompt by Promance (after applying RTFC):**  
+
+
+---
+
+## 🔹 How RTFC is Used
+- **R (Role):** Defines who the AI should act as (e.g., story writer, teacher, coder).  
+- **T (Task):** Specifies the exact task (e.g., write, summarize, generate code).  
+- **F (Format):** Enforces structured output (paragraphs, JSON, table, etc.).  
+- **C (Context):** Adds extra details to improve relevance and accuracy.  
+
+---
+
+
+---
+
+## 🔹 How RTFC is Used
+- **R (Role):** Defines who the AI should act as (e.g., story writer, teacher, coder).  
+- **T (Task):** Specifies the exact task (e.g., write, summarize, generate code).  
+- **F (Format):** Enforces structured output (paragraphs, JSON, table, etc.).  
+- **C (Context):** Adds extra details to improve relevance and accuracy.  
+
+---
+
+## ✅ Evaluation Criteria
+When designing and testing prompts in **Promance**, we check:  
+- **Correctness:** The refined prompt generates accurate and relevant responses.  
+- **Efficiency:** The optimized prompt reduces unnecessary tokens and speeds up inference.  
+- **Scalability:** The system can handle multiple user requests and large-scale context enrichment without performance issues.  
+
+
+
+
+
+
+
 
   
 
